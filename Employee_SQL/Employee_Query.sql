@@ -3,7 +3,7 @@
 -- Quick Reference for databases and columns names:
 -- titles(t): title_id, title
 -- departments(d): dept_number, dept_name
--- employees(e): employee_number, employee_title_id, birth_date, first_name, last_name, sex, hire_date
+-- employees(e): employee_number, title_id, birth_date, first_name, last_name, sex, hire_date
 -- dept_manager(dm): dept_number, employee_number
 -- dept_employee(de): employee_number, dept_number
 -- salaries(s): employee_number, salary

@@ -23,14 +23,14 @@ SELECT * FROM departments;
 DROP TABLE IF EXISTS employees;
 CREATE TABLE employees(
 	employee_number INTEGER NOT NULL,
-	employee_title_id VARCHAR (5) NOT NULL,
+	title_id VARCHAR (5) NOT NULL,
 	birth_date DATE,
 	first_name VARCHAR(30) NOT NULL,
 	last_name VARCHAR (30) NOT NULL,
 	sex VARCHAR(1),
 	hire_date DATE,
 	PRIMARY KEY (employee_number),
-	FOREIGN KEY (employee_title_id) REFERENCES titles(title_id)	
+	FOREIGN KEY (title_id) REFERENCES titles(title_id)	
 );
 SELECT * FROM employees;
 
