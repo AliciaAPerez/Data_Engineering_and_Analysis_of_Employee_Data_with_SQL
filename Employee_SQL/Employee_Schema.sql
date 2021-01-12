@@ -62,3 +62,5 @@ CREATE TABLE salaries(
 	FOREIGN KEY (employee_number) REFERENCES employees(employee_number)
 );
 SELECT * FROM salaries;
+
+--upload all csv files 
